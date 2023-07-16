@@ -43,11 +43,15 @@ header {
 .sub-title {
     margin-top: -35px;
 }
-.button-container,
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 126px;
+}
 .center-title {
     display: flex;
     justify-content: center;
-    margin-top: 200px;
+    margin-top: -418px;
 }
 
 .button1 {
@@ -120,6 +124,7 @@ header {
     gap: 30px;
     margin-right: 115px;
     margin-left: 115px;
+    flex-wrap: nowrap;
 }
 
 .feature {
@@ -129,7 +134,6 @@ header {
     font-weight: 700;
     line-height: 1.4;
     text-align: center;
-    text-transform: uppercase;
     width: 100%;
     max-width: 300px;
 }
@@ -329,12 +333,7 @@ footer {
     line-height: normal;
     letter-spacing: 0.42px;
     text-transform: uppercase;
-}
-.icons-list svg {
-    width: 20px;
-    height: 20px;
-    flex-shrink: 0;
-    margin-left: 5px; /* Spațiu între SVG-uri */
+    margin-top: -60px;
 }
 
 /*protofolio*/
@@ -404,4 +403,96 @@ footer {
     padding: 0;
     margin-right: 452px;
     margin-left: 452px;
+    align-items: center;
+}
+/*.icons-listporto {
+    width: 44px;
+    height: 44px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 22px;
+    flex-direction: row;
+}
+.icons-listporto:hover {
+    background-color: #2196f3;
+}*/
+.proba {
+    display: flex;
+    margin-top: 14px;
+    gap: 10px;
+    justify-content: center;
+}
+.proba .iconite {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 11px;
+    width: 22px;
+    height: 22px;
+    flex-shrink: 0;
+}
+.proba .iconite:hover {
+    background-color: #2196f3;
+}
+
+.iconite-susexperiment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 94px;
+}
+.svg-icon {
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
+    background: #f5f4fa;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.iconite-footeer {
+    display: flex;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: -92px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-right: 10px;
+    transition: background-color 0.3s;
+}
+
+.icon:hover {
+    background-color: #2196f3;
+}
+/*iconitele de la our team*/
+.icons-ourteam {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-left: 0px;
+}
+.telephone {
+    margin-right: 10px;
+}
+.mail {
+    margin-right: 10px;
 }
