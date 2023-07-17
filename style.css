@@ -384,6 +384,9 @@ footer {
     margin-left: 200px;
     margin-right: 219px;
 }
+.svg-regular:hover {
+    fill: #2196f3;
+}
 
 .regular-customers :hover {
     border: 1px solid #2196f3;
@@ -488,17 +491,18 @@ footer {
 
 .icon:hover {
     background-color: #2196f3;
+    border-radius: 50%;
 }
+.icon svg {
+    color: white;
+}
+
 /*iconitele de la our team*/
 .icons-ourteam {
     display: flex;
     justify-content: center;
     margin-top: 5px;
     margin-left: 0px;
-}
-
-.icons-ourteam svg:hover {
-    background-color: white;
 }
 
 .telephone {
